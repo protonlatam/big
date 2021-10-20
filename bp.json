@@ -7,15 +7,15 @@
 		"email": "protonlatam@gmail.com",
 		"ownership_disclosure": "https://protonlatam.github.io/big/",
 		"branding": {
-			"logo_256": "https://protonlatam.github.io/big/mexico_256x256.jpg",
-			"logo_1024": "https://protonlatam.github.io/big/mexico_1_1024x1024.jpg",
+			"logo_256": "https://protonlatam.github.io/big/protonlatamnew_1_256x256.png",
+			"logo_1024": "https://protonlatam.github.io/big/protonlatamnew_2_1024x1024.png",
 			"logo_svg": ""
 		},
 		"location": {
-			"name": "Brasil",
-			"country": "BR",
-			"latitude": 14.2350,
-			"longitude": 51.9253
+			"name": "Mexico",
+			"country": "MX",
+			"latitude": 23.6345,
+			"longitude": 102.5528
 		},
 		"social": {
 			"steemit": "",
@@ -32,10 +32,10 @@
 	"nodes": [
 		{
 			"location": {
-				"name": "Brasil",
-			"country": "BR",
-			"latitude": 14.2350,
-			"longitude": 51.9253
+				"name": "Mexico",
+			"country": "MX",
+			"latitude": 23.6345,
+			"longitude": 102.5528
 			},
 			"node_type": "producer"
 		}
