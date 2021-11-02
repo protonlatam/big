@@ -1,5 +1,5 @@
 ;(function () {
-	
+
 	'use strict';
 
 	var isMobile = {
@@ -29,7 +29,7 @@
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -52,9 +52,9 @@
 							el.removeClass('item-animate');
 						},  k * 100, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '85%' } );
@@ -82,12 +82,12 @@
 				$('.js-dt, .js-dtc').css('min-height', '');
 			}
 		});
-		
+
 	};
 
 	var countDown = function() {
 
-		var d = new Date(new Date().getTime() + 800 * 120 * 120 * 2000);
+		var d = new Date(new Date().getTime() + 1020 * 120 * 120 * 2000);
 		simplyCountdown('.simply-countdown-one', {
 			year: d.getFullYear(),
 			month: d.getMonth() - 7,
@@ -95,9 +95,9 @@
 		});
 
 	};
-	
-	
-	
+
+
+
 	$(function(){
 		contentWayPoint();
 		loaderPage();
